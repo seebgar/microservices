@@ -32,7 +32,8 @@ def oferentes(request):
             jsonData = {
                 'id': str(dto['_id']),
                 'nombre': str(dto['nombre']),
-                'tipo': str(dto['tipo']) # privado | publico
+                'tipo': str(dto['tipo']), # privado | publico
+                'parqueaderos': str(sto['parqueaderos'])
             }
             result.append(jsonData)
         client.close()
