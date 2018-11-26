@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'monitoring.urls'
+ROOT_URLCONF = 'reserva.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'monitoring.wsgi.application'
+WSGI_APPLICATION = 'reserva.wsgi.application'
 
 
 # Database
